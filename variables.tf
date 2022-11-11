@@ -1,11 +1,11 @@
 variable "region" {
   description = "AWS region"
-  default     = "us-west-1"
+  default     = "eu-west-3"
 }
 
 variable "instance_type" {
   description = "Type of EC2 instance to provision"
-  default     = "t2.micro"
+  default     = "t3.nano"
 }
 
 variable "instance_name" {
